@@ -18,7 +18,7 @@ Tools used for this project:
 # This project contains
 ### <b> 1. Designing and creating a database </b>
   I designed and created a relational database that would simulate one of a shop selling computer accesories. The database contains structure is showcased on the image below. I created a database in SQL Server Management Studio.
-
+![alt text](https://github.com/barti9boy/ShopInventory/blob/main/DB.png?raw=true)
 ### <b> 2. Generating data </b>
   Most of the data in the database is generated using Mockaroo.com. Because of the database structure however the records in Orders table had to be generated based on OrderItems table. For the data to be coherent, I generated values for Orders table in Google Sheets, exported it in .csv file and then inserted the data into the database using SQL. The data contains information from 1 month of sales
 
